@@ -39,4 +39,17 @@ The LIBR.COM program allows using Subkeys in the command line: d (defined) u (nd
 
 The available documentation does not describe this feature. If anyone knows how to use this functionality, please let me know. 
 
-Andrey Nikitin 03.08.2021
+Mark Ogden made the following changes to the libr3.c program:
+1. Fixed inaccuracies and decompilation errors.
+2. Added explanatory comments.
+3. Assigned meaningful names to variables and functions.
+4. In some functions, excluded labels and goto statements.
+5. With the encouragement of conditional compilation, the program is not built and run on modern 64-bit systems.
+
+Thanks to these changes, the program code has acquired a cleaner and more complete look.
+
+Thanks to Mark Ogden for correcting the program code.
+
+The new version of the program has the name libr.c.
+
+Andrey Nikitin 18.10.2021
