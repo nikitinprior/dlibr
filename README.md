@@ -44,7 +44,7 @@ Mark Ogden made the following changes to the libr3.c program:
 2. Added explanatory comments.
 3. Assigned meaningful names to variables and functions.
 4. In some functions, excluded labels and goto statements.
-5. With the encouragement of conditional compilation, the program is not built and run on modern 64-bit systems.
+5. With the encouragement of conditional compilation, the program is built and run on modern 64-bit systems.
 
 Thanks to these changes, the program code has acquired a cleaner and more complete look.
 
